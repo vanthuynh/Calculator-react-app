@@ -24,7 +24,7 @@ function App() {
                 className={btn === "="? "equals": ""}
                 value={btn}
                 onClick={() => {
-                  console.log("Button clicked!");
+                  console.log(`${btn} clicked!`);
                 }}
               />
             );

@@ -1,6 +1,6 @@
 # Calculator React App
 
-![calculator.gif](https://octodex.github.com/images/minion.png)
+![calculator.gif](./assets/calculator-demo.gif)
 
 ## Available Scripts
 

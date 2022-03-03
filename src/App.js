@@ -1,3 +1,5 @@
+import React, { useState } from "react";
+
 import Wrapper from './components/Wrapper';
 import Screen from './components/Screen';
 import ButtonBox from './components/ButtonBox';
@@ -11,7 +13,12 @@ const btnValues = [
   [0, ".", "="],
 ];
 
-function App() {
+const App = () => {
+  let [calc, setCalc] = useState({
+    sign: "",
+    num: 0,
+    res: 0,
+  });
   return (
     <Wrapper>
       <Screen value="0" />

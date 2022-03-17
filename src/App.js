@@ -5,12 +5,19 @@ import Screen from './components/Screen';
 import ButtonBox from './components/ButtonBox';
 import Button from './components/Button';
 
+// const btnValues = [
+//   ["AC", "+-", "%", "/"],
+//   [7, 8, 9, "X"],
+//   [4, 5, 6, "-"],
+//   [1, 2, 3, "+"],
+//   [0, ".", "="],
+// ];
 const btnValues = [
-  ["AC", "+-", "%", "/"],
+  // ["AC", "+-", "%", "/"],
   [7, 8, 9, "X"],
   [4, 5, 6, "-"],
   [1, 2, 3, "+"],
-  [0, ".", "="],
+  ["AC", 0, "=","/"]
 ];
 
 const toLocaleString = (num) =>
